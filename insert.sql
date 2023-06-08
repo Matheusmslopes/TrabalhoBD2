@@ -30,16 +30,16 @@ VALUES (01,'Banco Dados', 'Predio Rosa', 1),
 (02, 'Dev. Sofwtare', 'Predio Azul', 2), 
 (03, 'I.A', 'Predio branco', 3);
   
-INSERT INTO trabalha_em(cpf_funcionario, numero_projeto, horas)
-VALUES ("44731330595", 2, "13.0"),
-("54131806908", 3 ,"21.0"), 
-("49506218399",1,"10.0"),
-("37335777314",3,"20.0"),
-("58503588220" ,2, "16.0"),
-("4473330595",1,"10.0"),
-("3477574093",2,"12.0"),
-("543180698",2,"17.0"),
-("4950621839",1,"10.0");
+INSERT INTO trabalha_em(cpf_funcionario, horas, numero_projeto) 
+VALUES (26456088709, "16.0", 20),   
+(35622446360,"13.0", 20),   
+(48411203423, "21.0", 30),   
+(73629099548,"10.0", 10),   
+(77777777777,"20.0", 30),  
+(88866555576,"10.0", 10),   
+(88888888888,"12.0", 20),   
+(96632023254,"17.0", 20),   
+(99999999999,"10.0", 10);
 
 INSERT INTO localizacoes_departamento(numero_departamento, local)
 VALUES (1, "Predio Rosa"),
