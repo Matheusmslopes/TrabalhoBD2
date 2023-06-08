@@ -40,6 +40,11 @@ VALUES ("44731330595", 2, "13.0"),
 ("3477574093",2,"12.0"),
 ("543180698",2,"17.0"),
 ("4950621839",1,"10.0");
+
+INSERT INTO localizacoes_departamento(numero_departamento, local)
+VALUES (1, "Predio Rosa"),
+(2, "Predio Azul"),
+(3, "Predio branco");
   
   
 
