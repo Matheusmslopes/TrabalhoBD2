@@ -26,9 +26,9 @@ VALUES (1,"administrativo", 99999999999, "2006-02-07"),
 (3,"pessoal", 77777777777, "2016-09-20");	
 
 INSERT INTO projeto(numero_projeto, nome_projeto, local_projeto, numero_departamento) 
-VALUES (01,'Banco Dados', 'Predio Rosa', 1), 
-(02, 'Dev. Sofwtare', 'Predio Azul', 2), 
-(03, 'I.A', 'Predio branco', 3);
+VALUES (10,'Banco Dados', 'Predio Rosa', 1), 
+(20, 'Dev. Sofwtare', 'Predio Azul', 2), 
+(30, 'I.A', 'Predio branco', 3);
   
 INSERT INTO trabalha_em(cpf_funcionario, horas, numero_projeto) 
 VALUES (26456088709, "16.0", 20),   
