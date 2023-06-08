@@ -2,7 +2,11 @@ INSERT INTO funcionario (primeiro_nome, ultimo_nome, cpf, data_nascimento, ender
 ("Paul","Clark","73629099548","1986-05-30","9190 Nonummy Rd.","M","10000","88866555576",1),   
 ('Cristopher', 'Thompson', '77777777777', '1986-02-02','Rua da Praia, 12, Vila Velha, ES', 'M', '31000', '88866555576', 3 ), 
 ('Vitor', 'Lugon', '99999999999', '1990-12-12','Rua da UVV, 11, Vila Velha, ES', 'M', '40000', '88866555576', 1 ), 
-('Paulo', 'Andre', '88888888888', '1986-01-01','Rua do Shopping, 11, Vila Velha, ES', 'M', '30000', '88866555576', 2 ), ("Kyle","Brewer","96632023254","1989-03-25","P.O. Box 483, 2271 Cursus. Road","M","20000","88866555576",2),   ("Christian","Cabrera","26456088709","1978-06-12","7634 Duis Ave","M","20000","88866555576",2),   ("Urielle","Henderson","48411203423","1987-07-22","150-9791 Class Street","F","30000","88866555576",3),   ("Alea","Lewis","35622446360","1983-03-18","Ap #894-3239 Eu St.","F","20000","88866555576", 2);	
+('Paulo', 'Andre', '88888888888', '1986-01-01','Rua do Shopping, 11, Vila Velha, ES', 'M', '30000', '88866555576', 2 ), 
+("Kyle","Brewer","96632023254","1989-03-25","P.O. Box 483, 2271 Cursus. Road","M","20000","88866555576",2),   
+("Christian","Cabrera","26456088709","1978-06-12","7634 Duis Ave","M","20000","88866555576",2),   
+("Urielle","Henderson","48411203423","1987-07-22","150-9791 Class Street","F","30000","88866555576",3),   
+("Alea","Lewis","35622446360","1983-03-18","Ap #894-3239 Eu St.","F","20000","88866555576", 2);	
 
 INSERT INTO dependente(cpf_funcionario, nome_dependente, sexo, data_nascimento, parentesco) 
 VALUES  ("26456088709","Martena","F","1984-01-01","esposa"),   
