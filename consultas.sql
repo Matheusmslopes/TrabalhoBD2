@@ -1,11 +1,11 @@
 -- A criação de índices pode melhorar o desempenho das consultas, mas também pode aumentar o tempo de inserção, atualização e exclusão de registros, pois os índices precisam ser atualizados -- 
 
--- Exemplos de algunmas otimizações que podem ser usadas quem melhoram a velocidade de consultas na tabela funcionario --
+-- Exemplos de algumas otimizações que podem ser usadas quem melhoram a velocidade de consultas na tabela funcionario --
 CREATE INDEX idx_numero_departamento ON funcionario (numero_departamento);
 CREATE INDEX idx_cpf_supervisor ON funcionario (cpf_supervisor);
 CREATE INDEX idx_salario ON funcionario (salario);
 
--- Exemplos de algunmas otimizações que podem ser usadas quem melhoram a velocidade de consultas na tabela Projeto --
+-- Exemplos de algumas otimizações que podem ser usadas quem melhoram a velocidade de consultas na tabela Projeto --
 CREATE INDEX idx_numero_departamento ON projeto (numero_departamento);
 CREATE INDEX idx_nome_projeto ON projeto (nome_projeto);
 CREATE INDEX idx_local_projeto ON projeto (local_projeto);
