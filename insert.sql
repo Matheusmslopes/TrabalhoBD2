@@ -45,17 +45,3 @@ INSERT INTO localizacoes_departamento(numero_departamento, local)
 VALUES (1, "Predio Rosa"),
 (2, "Predio Azul"),
 (3, "Predio branco");
-  
-  
-
-update funcionario
-set cpf_supervisor = 77777777777
-where numero_departamento = 3;
-
-update funcionario
-set cpf_supervisor = 99999999999
-where numero_departamento = 2;
-
-update funcionario
-set cpf_supervisor = 88888888888
-where numero_departamento = 1;
